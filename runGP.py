@@ -9,7 +9,7 @@ import scipy as sp
 from theano import shared
 import os
 
-ndraws = 10
+ndraws = 1000
 ntune = ndraws
 NUTS_KWARGS = {'target_accept': 0.99,'max_treedepth':30}
 SEED = 4260026 # from random.org, for reproducibility
